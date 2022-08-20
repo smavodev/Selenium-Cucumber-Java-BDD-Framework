@@ -1,0 +1,20 @@
+
+# Selenium Cucumber Java BDD Framework 
+
+## Dependencies: Cucumber Java | Cucumber JUnit | JUnit | Selenium Java 
+
+https://mvnrepository.com/artifact/io.cucumber/cucumber-java/5.7.0
+https://mvnrepository.com/artifact/junit/junit/4.13
+https://mvnrepository.com/artifact/io.cucumber/cucumber-junit/5.7.0
+
+Step 1 - Crate a new maven project
+Step 2 - Add maven dependencies Cucumber Java | Cucumber JUnit | JUnit | Selenium Java
+Step 3 - Create folder Features under src/test/resources
+Step 4 - Under features folder create a new feature file login.feature
+Step 5 - Download cucumber plugin from Eclipse Marketplace
+Step 6 - Create feature and add contents 
+Step 7 - Try to run the feature file 
+Step 8 - Add Step Definitions / Glue Code under src/test/java package 
+Step 9 - Create a Runner class
+Step 10 - Create Add Cucumber Options for generating reports HTML | JSON | XML
+Step 11 - Run and verify results 

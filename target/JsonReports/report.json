@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2022-08-20T20:59:16.869Z",
+        "start_timestamp": "2022-08-20T21:28:45.995Z",
         "line": 4,
         "name": "Checkin login is successfull with valid credentials",
         "description": "",
@@ -13,7 +13,7 @@
         "steps": [
           {
             "result": {
-              "duration": 997600,
+              "duration": 997100,
               "status": "passed"
             },
             "line": 5,
