@@ -12,9 +12,30 @@ Step 2 - Add maven dependencies Cucumber Java | Cucumber JUnit | JUnit | Seleniu
 Step 3 - Create folder Features under src/test/resources
 Step 4 - Under features folder create a new feature file login.feature
 Step 5 - Download cucumber plugin from Eclipse Marketplace
-Step 6 - Create feature and add contents 
+Step 6 - Create feature file and add contents 
 Step 7 - Try to run the feature file 
 Step 8 - Add Step Definitions / Glue Code under src/test/java package 
 Step 9 - Create a Runner class
 Step 10 - Create Add Cucumber Options for generating reports HTML | JSON | XML
 Step 11 - Run and verify results 
+
+
+## Semantic Commit Messages: https://gist.github.com/joshbuchea/6f47e86d2510bce28f8e7f42ae84c716
+
+## Git Log console 
+### git log --pretty=oneline --abbrev-commit --graph --color
+
+
+========================================================================================================
+
+# Fisrt Selenium Test
+
+Step 1 - Add Selenium Java Maven dependency 
+Step 2 - Create a feature file and add Scenario and Steps
+Step 3 - Create Step Definition/ Glue code for the steps
+Step 4 - Download browser driver files
+Step 5 - Add Selenium WebDriver code
+Step 6 - Run Feature file and check the execution
+ 
+https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java
+https://chromedriver.chromium.org/downloads
