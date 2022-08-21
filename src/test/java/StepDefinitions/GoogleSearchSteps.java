@@ -1,7 +1,7 @@
 package StepDefinitions;
 
-import java.sql.Driver;
-import java.util.concurrent.TimeUnit;
+// import java.sql.Driver;
+// import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
@@ -15,13 +15,11 @@ import io.cucumber.java.en.When;
 
 public class GoogleSearchSteps {
 
-
 	WebDriver driver = null;
 	
 	@Given("browser is open")
 	public void browser_is_open() {
-		
-		System.setProperty("webdriver.chrome.driver", "./src/test/resources/drivers/chromedriver_104.0.5112.81.exe");
+		System.setProperty("webdriver.chrome.driver", "./src/test/resources/drivers/chrome/chromedriver_104.0.5112.81.exe");
 		driver = new ChromeDriver();
 		// driver.manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS);
 		// driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
