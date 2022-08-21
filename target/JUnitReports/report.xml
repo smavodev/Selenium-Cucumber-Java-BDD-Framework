@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="27.895">
-    <testcase classname="Test Login Functionality" name="Verificando de login con credenciales validas" time="8.006">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="6" time="54.092">
+    <testcase classname="feature to test google search functionality" name="Validate google search is working" time="6.646">
+        <system-out><![CDATA[Given browser is open.......................................................passed
+And user is on google search page...........................................passed
+When use enters a text in search box........................................passed
+And hits enter..............................................................passed
+Then user is navigated to search results....................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Test Login Functionality" name="Accediendo al login con credenciales validas" time="6.971">
         <system-out><![CDATA[Given Abrimos el navegador Chrome...........................................passed
 And El usurio ve a la ventana Login.........................................passed
 When Se ingresa el usuario y contrasena.....................................passed
@@ -8,20 +16,36 @@ And hace click en el boton..................................................pass
 Then EL usuario navega por la pagina principal..............................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Prueba de Funcionalidad de Login" name="Verificando el acceso al login con las credenciales" time="9.874">
+    <testcase classname="Prueba de Funcionalidad de Login" name="Verificando el acceso al login con las credenciales" time="10.572">
         <system-out><![CDATA[Given Abrimos el navegador Firefox..........................................passed
 And El usurio se dirige a la ventana Login..................................passed
-When El usuario ingresa el Sergio y 12345...................................passed
+When El usuario ingresa Eduardo y 12345.....................................passed
 And hace click en el boton login............................................passed
 Then EL usuario navega por la pagina........................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Prueba de Funcionalidad de Login" name="Verificando el acceso al login con las credenciales 2" time="9.878">
+    <testcase classname="Prueba de Funcionalidad de Login" name="Verificando el acceso al login con las credenciales 2" time="9.863">
         <system-out><![CDATA[Given Abrimos el navegador Firefox..........................................passed
 And El usurio se dirige a la ventana Login..................................passed
-When El usuario ingresa el Martin y 12345...................................passed
+When El usuario ingresa Diego y 12345.......................................passed
 And hace click en el boton login............................................passed
 Then EL usuario navega por la pagina........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Prueba de Funcionalidad de Login Successfull" name="Verificando el acceso al login con credenciales validas" time="9.948">
+        <system-out><![CDATA[Given Se abre el navegador web..............................................passed
+And El usuario va a la ventana Login........................................passed
+When Ingresamos el Sergio y 12345...........................................passed
+And click en el boton login.................................................passed
+Then EL usuario navega por la pagina TestProject Example page...............passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Prueba de Funcionalidad de Login Successfull" name="Verificando el acceso al login con credenciales validas 2" time="9.934">
+        <system-out><![CDATA[Given Se abre el navegador web..............................................passed
+And El usuario va a la ventana Login........................................passed
+When Ingresamos el Martin y 12345...........................................passed
+And click en el boton login.................................................passed
+Then EL usuario navega por la pagina TestProject Example page...............passed
 ]]></system-out>
     </testcase>
 </testsuite>

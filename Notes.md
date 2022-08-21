@@ -62,4 +62,14 @@ Step 5 - Add data for the parameters in th Examples section
 Step 6 - Update Step definition to get values fron feature file Example section
 Step 7 - Run and verify 
 
+========================================================================================================
 
+## 5 Page Object Model 
+
+Step 1 - Create a class for each page
+Step 2 - Create locators of all objects to be used in that page
+Step 3 - Create methods or actions to be performed ob the objects
+Step 4 - Refer in the test script 
+Step 5 - Run and validate
+
+========================================================================================================

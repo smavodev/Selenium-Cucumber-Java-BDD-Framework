@@ -3,7 +3,7 @@ package StepDefinitions;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
+// import org.openqa.selenium.firefox.FirefoxDriver;
 
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
@@ -28,7 +28,7 @@ public class LoginTestParameterizerSteps {
 		driver.navigate().to("https://example.testproject.io/web/");
 	}
 
-	@When("^El usuario ingresa el (.*) y (.*)$")
+	@When("^El usuario ingresa (.*) y (.*)$")
 	public void el_usuario_ingresa_el_username_y_password(String username, String password) throws InterruptedException {
 		driver.findElement(By.id("name")).sendKeys(username);
 		driver.findElement(By.id("password")).sendKeys(password);

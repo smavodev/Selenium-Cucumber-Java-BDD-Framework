@@ -1,7 +1,7 @@
 Feature: Test Login Functionality
 
-  @smokeTest
-  Scenario: Verificando de login con credenciales validas
+@smokeTest
+  Scenario: Accediendo al login con credenciales validas
     Given Abrimos el navegador Chrome
     And El usurio ve a la ventana Login
     When Se ingresa el usuario y contrasena

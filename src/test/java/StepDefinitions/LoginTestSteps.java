@@ -25,7 +25,7 @@ public class LoginTestSteps {
 		driver.navigate().to("https://example.testproject.io/web/");
 	}
 
-	@When("Se ingresa el usuario y contrasena")
+	@When("^Se ingresa el usuario y contrasena$")
 	public void se_ingresa_el_usuario_y_contrasena() {
 		driver.findElement(By.id("name")).sendKeys("Sergio");
 		driver.findElement(By.id("password")).sendKeys("12345");
