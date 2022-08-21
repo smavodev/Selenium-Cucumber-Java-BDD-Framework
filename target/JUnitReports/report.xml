@@ -1,11 +1,27 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="7.671">
-    <testcase classname="Test Login Functionality" name="Verificando de login con credenciales validas" time="7.559">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="27.895">
+    <testcase classname="Test Login Functionality" name="Verificando de login con credenciales validas" time="8.006">
         <system-out><![CDATA[Given Abrimos el navegador Chrome...........................................passed
 And El usurio ve a la ventana Login.........................................passed
 When Se ingresa el usuario y contrasena.....................................passed
 And hace click en el boton..................................................passed
 Then EL usuario navega por la pagina principal..............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Prueba de Funcionalidad de Login" name="Verificando el acceso al login con las credenciales" time="9.874">
+        <system-out><![CDATA[Given Abrimos el navegador Firefox..........................................passed
+And El usurio se dirige a la ventana Login..................................passed
+When El usuario ingresa el Sergio y 12345...................................passed
+And hace click en el boton login............................................passed
+Then EL usuario navega por la pagina........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Prueba de Funcionalidad de Login" name="Verificando el acceso al login con las credenciales 2" time="9.878">
+        <system-out><![CDATA[Given Abrimos el navegador Firefox..........................................passed
+And El usurio se dirige a la ventana Login..................................passed
+When El usuario ingresa el Martin y 12345...................................passed
+And hace click en el boton login............................................passed
+Then EL usuario navega por la pagina........................................passed
 ]]></system-out>
     </testcase>
 </testsuite>

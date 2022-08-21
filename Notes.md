@@ -52,5 +52,14 @@ Step 5 - Run Feature file and check the execution
 
 ========================================================================================================
 
+## 4 Parameterization & Data Driven Testing
+
+Step 1 - In the feature file select the values that needs to be Parameterization
+Step 2 - Put the values within conical brackets or double quotes (Parameterization)
+Step 3 - Change Scenario to Scenario Outline
+Step 4 - Add Examples secion
+Step 5 - Add data for the parameters in th Examples section
+Step 6 - Update Step definition to get values fron feature file Example section
+Step 7 - Run and verify 
 
 

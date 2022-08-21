@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2022-08-21T03:53:51.125Z",
+        "start_timestamp": "2022-08-21T12:50:41.459Z",
         "line": 4,
         "name": "Verificando de login con credenciales validas",
         "description": "",
@@ -13,7 +13,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1267117300,
+              "duration": 1678458500,
               "status": "passed"
             },
             "line": 5,
@@ -25,7 +25,7 @@
           },
           {
             "result": {
-              "duration": 650964500,
+              "duration": 628546500,
               "status": "passed"
             },
             "line": 6,
@@ -37,19 +37,19 @@
           },
           {
             "result": {
-              "duration": 82923800,
+              "duration": 82565800,
               "status": "passed"
             },
             "line": 7,
             "name": "Se ingresa el usuario y contrasena",
             "match": {
-              "location": "StepDefinitions.LoginTestSteps.se_ingresa_el_usuario_y_contrase_a()"
+              "location": "StepDefinitions.LoginTestSteps.se_ingresa_el_usuario_y_contrasena()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 35918700,
+              "duration": 32852800,
               "status": "passed"
             },
             "line": 8,
@@ -61,7 +61,7 @@
           },
           {
             "result": {
-              "duration": 5481898400,
+              "duration": 5520465900,
               "status": "passed"
             },
             "line": 9,
@@ -84,6 +84,189 @@
     "id": "test-login-functionality",
     "keyword": "Feature",
     "uri": "file:src/test/resources/Features/LoginTest.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-08-21T12:50:49.471Z",
+        "line": 12,
+        "name": "Verificando el acceso al login con las credenciales",
+        "description": "",
+        "id": "prueba-de-funcionalidad-de-login;verificando-el-acceso-al-login-con-las-credenciales;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 644952800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Abrimos el navegador Firefox",
+            "match": {
+              "location": "StepDefinitions.LoginTestParameterizerSteps.abrimos_el_navegador_Firefox()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 599140100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "El usurio se dirige a la ventana Login",
+            "match": {
+              "location": "StepDefinitions.LoginTestParameterizerSteps.el_usurio_se_dirige_a_la_ventana_Login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3082022200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "El usuario ingresa el Sergio y 12345",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sergio",
+                  "offset": 22
+                },
+                {
+                  "val": "12345",
+                  "offset": 31
+                }
+              ],
+              "location": "StepDefinitions.LoginTestParameterizerSteps.el_usuario_ingresa_el_username_y_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 36874000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "hace click en el boton login",
+            "match": {
+              "location": "StepDefinitions.LoginTestParameterizerSteps.hace_click_en_el_boton_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5504114300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "EL usuario navega por la pagina",
+            "match": {
+              "location": "StepDefinitions.LoginTestParameterizerSteps.el_usuario_navega_por_la_pagina()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smokeTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-08-21T12:50:59.351Z",
+        "line": 13,
+        "name": "Verificando el acceso al login con las credenciales",
+        "description": "",
+        "id": "prueba-de-funcionalidad-de-login;verificando-el-acceso-al-login-con-las-credenciales;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 654251200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Abrimos el navegador Firefox",
+            "match": {
+              "location": "StepDefinitions.LoginTestParameterizerSteps.abrimos_el_navegador_Firefox()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 598518100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "El usurio se dirige a la ventana Login",
+            "match": {
+              "location": "StepDefinitions.LoginTestParameterizerSteps.el_usurio_se_dirige_a_la_ventana_Login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3077354300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "El usuario ingresa el Martin y 12345",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Martin",
+                  "offset": 22
+                },
+                {
+                  "val": "12345",
+                  "offset": 31
+                }
+              ],
+              "location": "StepDefinitions.LoginTestParameterizerSteps.el_usuario_ingresa_el_username_y_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 37899800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "hace click en el boton login",
+            "match": {
+              "location": "StepDefinitions.LoginTestParameterizerSteps.hace_click_en_el_boton_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5509395000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "EL usuario navega por la pagina",
+            "match": {
+              "location": "StepDefinitions.LoginTestParameterizerSteps.el_usuario_navega_por_la_pagina()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "Prueba de Funcionalidad de Login",
+    "description": "",
+    "id": "prueba-de-funcionalidad-de-login",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/LoginTestParameterizer.feature",
     "tags": []
   }
 ]

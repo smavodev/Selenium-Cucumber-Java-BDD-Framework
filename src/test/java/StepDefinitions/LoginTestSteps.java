@@ -15,7 +15,7 @@ public class LoginTestSteps {
 
 	@Given("Abrimos el navegador Chrome")
 	public void abrimos_el_navegador_Chrome() {
-		System.setProperty("webdriver.chrome.driver", "./src/test/resources/drivers/chromedriver_104.0.5112.81.exe");
+		System.setProperty("webdriver.chrome.driver", "./src/test/resources/drivers/chrome/chromedriver_104.0.5112.81.exe");
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 	}
@@ -26,7 +26,7 @@ public class LoginTestSteps {
 	}
 
 	@When("Se ingresa el usuario y contrasena")
-	public void se_ingresa_el_usuario_y_contrase_a() {
+	public void se_ingresa_el_usuario_y_contrasena() {
 		driver.findElement(By.id("name")).sendKeys("Sergio");
 		driver.findElement(By.id("password")).sendKeys("12345");
 	}
@@ -34,11 +34,10 @@ public class LoginTestSteps {
 	@When("hace click en el boton")
 	public void hace_click_en_el_boton() {
 		driver.findElement(By.id("login")).click();
-
 	}
 
 	@Then("EL usuario navega por la pagina principal")
-	public void el_usuario_navega_por_la_pagina_principal() throws InterruptedException  {
+	public void el_usuario_navega_por_la_pagina_principal() throws InterruptedException {
 		driver.findElement(By.id("logout")).isDisplayed();
 		Thread.sleep(3000);
 		driver.close();
