@@ -1,5 +1,5 @@
 
-# Selenium Cucumber Java BDD Framework 
+# 1 Selenium Cucumber Java BDD Framework - Setup
 
 ## Dependencies: Cucumber Java | Cucumber JUnit | JUnit | Selenium Java 
 
@@ -28,7 +28,7 @@ Step 11 - Run and verify results
 
 ========================================================================================================
 
-# Fisrt Selenium Test
+# 1 Fisrt Selenium Test
 
 Step 1 - Add Selenium Java Maven dependency 
 Step 2 - Create a feature file and add Scenario and Steps
@@ -39,3 +39,18 @@ Step 6 - Run Feature file and check the execution
  
 https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java
 https://chromedriver.chromium.org/downloads
+
+========================================================================================================
+
+## 3 Sample Login Test
+
+Step 1 - Check the Scenario / Navigation
+Step 2 - Create feature file and Scenario and Steps
+Step 3 - Create Steps Definition / Glue Code for the Steps
+Step 4 - Add Selenium WebDriver code 
+Step 5 - Run Feature file and check the execution
+
+========================================================================================================
+
+
+

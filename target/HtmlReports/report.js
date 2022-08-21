@@ -1,11 +1,11 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/resources/Features/GoogleSerach.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/resources/Features/LoginTest.feature");
 formatter.feature({
-  "name": "feature to test google search functionality",
+  "name": "Test Login Functionality",
   "description": "",
   "keyword": "Feature"
 });
 formatter.scenario({
-  "name": "Validate google search is working",
+  "name": "Verificando de login con credenciales validas",
   "description": "",
   "keyword": "Scenario",
   "tags": [
@@ -15,51 +15,51 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "name": "browser is open",
+  "name": "Abrimos el navegador Chrome",
   "keyword": "Given "
 });
 formatter.match({
-  "location": "StepDefinitions.GoogleSearchSteps.browser_is_open()"
+  "location": "StepDefinitions.LoginTestSteps.abrimos_el_navegador_Chrome()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "user is on google search page",
+  "name": "El usurio ve a la ventana Login",
   "keyword": "And "
 });
 formatter.match({
-  "location": "StepDefinitions.GoogleSearchSteps.user_is_on_google_search_page()"
+  "location": "StepDefinitions.LoginTestSteps.el_usurio_ve_a_la_ventana_Login()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "use enters a text in search box",
+  "name": "Se ingresa el usuario y contrasena",
   "keyword": "When "
 });
 formatter.match({
-  "location": "StepDefinitions.GoogleSearchSteps.use_enters_a_text_in_search_box()"
+  "location": "StepDefinitions.LoginTestSteps.se_ingresa_el_usuario_y_contrase_a()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "hits enter",
+  "name": "hace click en el boton",
   "keyword": "And "
 });
 formatter.match({
-  "location": "StepDefinitions.GoogleSearchSteps.hits_enter()"
+  "location": "StepDefinitions.LoginTestSteps.hace_click_en_el_boton()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "user is navigated to search results",
+  "name": "EL usuario navega por la pagina principal",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "StepDefinitions.GoogleSearchSteps.user_is_navigated_to_search_results()"
+  "location": "StepDefinitions.LoginTestSteps.el_usuario_navega_por_la_pagina_principal()"
 });
 formatter.result({
   "status": "passed"
