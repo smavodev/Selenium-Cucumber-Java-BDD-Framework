@@ -73,3 +73,14 @@ Step 4 - Refer in the test script
 Step 5 - Run and validate
 
 ========================================================================================================
+
+## 6 Page Factory
+
+Step 1 - Create a class for each page
+Step 2 - Create locators of all objects to be used in that page using @FindBy
+Step 3 - Create methods or actions to be performed on the objects
+Step 4 - Create constructor to get driver instance and inicialize Elements using method initElements
+Step 5 - Update Test Scripts to refer methods from PageFactory class
+Step 6 - Run and validate
+
+========================================================================================================

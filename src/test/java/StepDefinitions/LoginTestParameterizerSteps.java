@@ -23,7 +23,7 @@ public class LoginTestParameterizerSteps {
 		driver.manage().window().maximize();
 	}
 
-	@And("El usurio se dirige a la ventana Login")
+	@And("El usurio se dirige a la ventana Login") 
 	public void el_usurio_se_dirige_a_la_ventana_Login() {
 		driver.navigate().to("https://example.testproject.io/web/");
 	}
