@@ -13,7 +13,7 @@ public class LoginTestSteps {
 	
 	WebDriver driver = null;
 
-	@Given("Abrimos el navegador Chrome") 
+	@Given("Abrimos el navegador Chrome")
 	public void abrimos_el_navegador_Chrome() {
 		System.setProperty("webdriver.chrome.driver", "./src/test/resources/drivers/chrome/chromedriver_104.0.5112.81.exe");
 		driver = new ChromeDriver();

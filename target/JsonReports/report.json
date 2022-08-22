@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2022-08-22T02:12:43.259Z",
+        "start_timestamp": "2022-08-22T14:45:41.439Z",
         "line": 4,
         "name": "Validate google search is working",
         "description": "",
@@ -13,47 +13,62 @@
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "duration": 1748652400,
+              "status": "passed"
             },
             "line": 5,
             "name": "browser is open",
-            "match": {},
+            "match": {
+              "location": "StepDefinitions.GoogleSearchSteps.browser_is_open()"
+            },
             "keyword": "Given "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 735893300,
+              "status": "passed"
             },
             "line": 6,
             "name": "user is on google search page",
-            "match": {},
+            "match": {
+              "location": "StepDefinitions.GoogleSearchSteps.user_is_on_google_search_page()"
+            },
             "keyword": "And "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 69326800,
+              "status": "passed"
             },
             "line": 7,
             "name": "use enters a text in search box",
-            "match": {},
+            "match": {
+              "location": "StepDefinitions.GoogleSearchSteps.use_enters_a_text_in_search_box()"
+            },
             "keyword": "When "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 1168283800,
+              "status": "passed"
             },
             "line": 8,
             "name": "hits enter",
-            "match": {},
+            "match": {
+              "location": "StepDefinitions.GoogleSearchSteps.hits_enter()"
+            },
             "keyword": "And "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 2551378900,
+              "status": "passed"
             },
             "line": 9,
             "name": "user is navigated to search results",
-            "match": {},
+            "match": {
+              "location": "StepDefinitions.GoogleSearchSteps.user_is_navigated_to_search_results()"
+            },
             "keyword": "Then "
           }
         ],
@@ -75,7 +90,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2022-08-22T02:12:43.341Z",
+        "start_timestamp": "2022-08-22T14:45:47.789Z",
         "line": 4,
         "name": "Accediendo al login con credenciales validas",
         "description": "",
@@ -85,47 +100,62 @@
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "duration": 676146100,
+              "status": "passed"
             },
             "line": 5,
             "name": "Abrimos el navegador Chrome",
-            "match": {},
+            "match": {
+              "location": "StepDefinitions.LoginTestSteps.abrimos_el_navegador_Chrome()"
+            },
             "keyword": "Given "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 617261000,
+              "status": "passed"
             },
             "line": 6,
             "name": "El usurio ve a la ventana Login",
-            "match": {},
+            "match": {
+              "location": "StepDefinitions.LoginTestSteps.el_usurio_ve_a_la_ventana_Login()"
+            },
             "keyword": "And "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 83541700,
+              "status": "passed"
             },
             "line": 7,
             "name": "Se ingresa el usuario y contrasena",
-            "match": {},
+            "match": {
+              "location": "StepDefinitions.LoginTestSteps.se_ingresa_el_usuario_y_contrasena()"
+            },
             "keyword": "When "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 34859900,
+              "status": "passed"
             },
             "line": 8,
             "name": "hace click en el boton",
-            "match": {},
+            "match": {
+              "location": "StepDefinitions.LoginTestSteps.hace_click_en_el_boton()"
+            },
             "keyword": "And "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 5486969800,
+              "status": "passed"
             },
             "line": 9,
             "name": "EL usuario navega por la pagina principal",
-            "match": {},
+            "match": {
+              "location": "StepDefinitions.LoginTestSteps.el_usuario_navega_por_la_pagina_principal()"
+            },
             "keyword": "Then "
           }
         ],
@@ -147,7 +177,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2022-08-22T02:12:43.351Z",
+        "start_timestamp": "2022-08-22T14:45:54.696Z",
         "line": 13,
         "name": "Verificando el acceso al login con las credenciales",
         "description": "",
@@ -157,47 +187,72 @@
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "duration": 648304200,
+              "status": "passed"
             },
             "line": 5,
             "name": "Abrimos el navegador Firefox",
-            "match": {},
+            "match": {
+              "location": "StepDefinitions.LoginTestParameterizerSteps.abrimos_el_navegador_Firefox()"
+            },
             "keyword": "Given "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 589643700,
+              "status": "passed"
             },
             "line": 6,
             "name": "El usurio se dirige a la ventana Login",
-            "match": {},
+            "match": {
+              "location": "StepDefinitions.LoginTestParameterizerSteps.el_usurio_se_dirige_a_la_ventana_Login()"
+            },
             "keyword": "And "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 3090359700,
+              "status": "passed"
             },
             "line": 7,
             "name": "El usuario ingresa Eduardo y 12345",
-            "match": {},
+            "match": {
+              "arguments": [
+                {
+                  "val": "Eduardo",
+                  "offset": 19
+                },
+                {
+                  "val": "12345",
+                  "offset": 29
+                }
+              ],
+              "location": "StepDefinitions.LoginTestParameterizerSteps.el_usuario_ingresa_el_username_y_password(java.lang.String,java.lang.String)"
+            },
             "keyword": "When "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 33910400,
+              "status": "passed"
             },
             "line": 8,
             "name": "hace click en el boton login",
-            "match": {},
+            "match": {
+              "location": "StepDefinitions.LoginTestParameterizerSteps.hace_click_en_el_boton_login()"
+            },
             "keyword": "And "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 5514070800,
+              "status": "passed"
             },
             "line": 9,
             "name": "EL usuario navega por la pagina",
-            "match": {},
+            "match": {
+              "location": "StepDefinitions.LoginTestParameterizerSteps.el_usuario_navega_por_la_pagina()"
+            },
             "keyword": "Then "
           }
         ],
@@ -208,7 +263,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-08-22T02:12:43.362Z",
+        "start_timestamp": "2022-08-22T14:46:04.581Z",
         "line": 14,
         "name": "Verificando el acceso al login con las credenciales",
         "description": "",
@@ -218,47 +273,72 @@
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "duration": 643110700,
+              "status": "passed"
             },
             "line": 5,
             "name": "Abrimos el navegador Firefox",
-            "match": {},
+            "match": {
+              "location": "StepDefinitions.LoginTestParameterizerSteps.abrimos_el_navegador_Firefox()"
+            },
             "keyword": "Given "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 591667300,
+              "status": "passed"
             },
             "line": 6,
             "name": "El usurio se dirige a la ventana Login",
-            "match": {},
+            "match": {
+              "location": "StepDefinitions.LoginTestParameterizerSteps.el_usurio_se_dirige_a_la_ventana_Login()"
+            },
             "keyword": "And "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 3096551900,
+              "status": "passed"
             },
             "line": 7,
             "name": "El usuario ingresa Diego y 12345",
-            "match": {},
+            "match": {
+              "arguments": [
+                {
+                  "val": "Diego",
+                  "offset": 19
+                },
+                {
+                  "val": "12345",
+                  "offset": 27
+                }
+              ],
+              "location": "StepDefinitions.LoginTestParameterizerSteps.el_usuario_ingresa_el_username_y_password(java.lang.String,java.lang.String)"
+            },
             "keyword": "When "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 33911800,
+              "status": "passed"
             },
             "line": 8,
             "name": "hace click en el boton login",
-            "match": {},
+            "match": {
+              "location": "StepDefinitions.LoginTestParameterizerSteps.hace_click_en_el_boton_login()"
+            },
             "keyword": "And "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 5500907200,
+              "status": "passed"
             },
             "line": 9,
             "name": "EL usuario navega por la pagina",
-            "match": {},
+            "match": {
+              "location": "StepDefinitions.LoginTestParameterizerSteps.el_usuario_navega_por_la_pagina()"
+            },
             "keyword": "Then "
           }
         ],
@@ -280,7 +360,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2022-08-22T02:12:43.369Z",
+        "start_timestamp": "2022-08-22T14:46:14.453Z",
         "line": 13,
         "name": "Acceso al login con credenciales validas",
         "description": "",
@@ -290,47 +370,72 @@
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "duration": 662197400,
+              "status": "passed"
             },
             "line": 5,
             "name": "Abrimos el navegador web",
-            "match": {},
+            "match": {
+              "location": "StepDefinitions.LoginTest_FC.abrimos_el_navegador_web()"
+            },
             "keyword": "Given "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 581113200,
+              "status": "passed"
             },
             "line": 6,
             "name": "Nos dirigimos al Login del sistema",
-            "match": {},
+            "match": {
+              "location": "StepDefinitions.LoginTest_FC.nos_dirigimos_al_Login_del_sistema()"
+            },
             "keyword": "And "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 3106860200,
+              "status": "passed"
             },
             "line": 7,
             "name": "Accedemos con el Yadira y 12345",
-            "match": {},
+            "match": {
+              "arguments": [
+                {
+                  "val": "Yadira",
+                  "offset": 17
+                },
+                {
+                  "val": "12345",
+                  "offset": 26
+                }
+              ],
+              "location": "StepDefinitions.LoginTest_FC.accedemos_con_el_user_y_contra(java.lang.String,java.lang.String)"
+            },
             "keyword": "When "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 33911800,
+              "status": "passed"
             },
             "line": 8,
             "name": "Hacemos click en el boton login",
-            "match": {},
+            "match": {
+              "location": "StepDefinitions.LoginTest_FC.hacemos_click_en_el_boton_login()"
+            },
             "keyword": "And "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 5488375900,
+              "status": "passed"
             },
             "line": 9,
             "name": "El usuario navega en la pagina de registro",
-            "match": {},
+            "match": {
+              "location": "StepDefinitions.LoginTest_FC.el_usuario_navega_en_la_pagina_de_registro()"
+            },
             "keyword": "Then "
           }
         ],
@@ -341,7 +446,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-08-22T02:12:43.379Z",
+        "start_timestamp": "2022-08-22T14:46:24.331Z",
         "line": 14,
         "name": "Acceso al login con credenciales validas",
         "description": "",
@@ -351,47 +456,72 @@
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "duration": 621384100,
+              "status": "passed"
             },
             "line": 5,
             "name": "Abrimos el navegador web",
-            "match": {},
+            "match": {
+              "location": "StepDefinitions.LoginTest_FC.abrimos_el_navegador_web()"
+            },
             "keyword": "Given "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 595824000,
+              "status": "passed"
             },
             "line": 6,
             "name": "Nos dirigimos al Login del sistema",
-            "match": {},
+            "match": {
+              "location": "StepDefinitions.LoginTest_FC.nos_dirigimos_al_Login_del_sistema()"
+            },
             "keyword": "And "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 3086753000,
+              "status": "passed"
             },
             "line": 7,
             "name": "Accedemos con el Santiago y 12345",
-            "match": {},
+            "match": {
+              "arguments": [
+                {
+                  "val": "Santiago",
+                  "offset": 17
+                },
+                {
+                  "val": "12345",
+                  "offset": 28
+                }
+              ],
+              "location": "StepDefinitions.LoginTest_FC.accedemos_con_el_user_y_contra(java.lang.String,java.lang.String)"
+            },
             "keyword": "When "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 33910300,
+              "status": "passed"
             },
             "line": 8,
             "name": "Hacemos click en el boton login",
-            "match": {},
+            "match": {
+              "location": "StepDefinitions.LoginTest_FC.hacemos_click_en_el_boton_login()"
+            },
             "keyword": "And "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 5483958200,
+              "status": "passed"
             },
             "line": 9,
             "name": "El usuario navega en la pagina de registro",
-            "match": {},
+            "match": {
+              "location": "StepDefinitions.LoginTest_FC.el_usuario_navega_en_la_pagina_de_registro()"
+            },
             "keyword": "Then "
           }
         ],
@@ -413,7 +543,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2022-08-22T02:12:43.384Z",
+        "start_timestamp": "2022-08-22T14:46:34.158Z",
         "line": 12,
         "name": "Verificando el acceso al login con credenciales validas",
         "description": "",
@@ -423,47 +553,72 @@
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "duration": 633472000,
+              "status": "passed"
             },
             "line": 5,
             "name": "Se abre el navegador web",
-            "match": {},
+            "match": {
+              "location": "StepDefinitions.LoginTest_POM.se_abre_el_navegador_web()"
+            },
             "keyword": "Given "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 587594200,
+              "status": "passed"
             },
             "line": 6,
             "name": "El usuario va a la ventana Login",
-            "match": {},
+            "match": {
+              "location": "StepDefinitions.LoginTest_POM.el_usurio_va_a_la_ventana_Login()"
+            },
             "keyword": "And "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 3097702400,
+              "status": "passed"
             },
             "line": 7,
             "name": "Ingresamos el Sergio y 12345",
-            "match": {},
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sergio",
+                  "offset": 14
+                },
+                {
+                  "val": "12345",
+                  "offset": 23
+                }
+              ],
+              "location": "StepDefinitions.LoginTest_POM.Ingresamos_el_usuario_y_contrasenia(java.lang.String,java.lang.String)"
+            },
             "keyword": "When "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 36874500,
+              "status": "passed"
             },
             "line": 8,
             "name": "click en el boton login",
-            "match": {},
+            "match": {
+              "location": "StepDefinitions.LoginTest_POM.click_en_el_boton_login()"
+            },
             "keyword": "And "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 5475291800,
+              "status": "passed"
             },
             "line": 9,
             "name": "EL usuario navega por la pagina TestProject Example page",
-            "match": {},
+            "match": {
+              "location": "StepDefinitions.LoginTest_POM.el_usuario_navega_por_la_pagina_TestProject_Example_page()"
+            },
             "keyword": "Then "
           }
         ],
@@ -474,7 +629,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-08-22T02:12:43.393Z",
+        "start_timestamp": "2022-08-22T14:46:43.995Z",
         "line": 13,
         "name": "Verificando el acceso al login con credenciales validas",
         "description": "",
@@ -484,47 +639,72 @@
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "duration": 649274700,
+              "status": "passed"
             },
             "line": 5,
             "name": "Se abre el navegador web",
-            "match": {},
+            "match": {
+              "location": "StepDefinitions.LoginTest_POM.se_abre_el_navegador_web()"
+            },
             "keyword": "Given "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 608780500,
+              "status": "passed"
             },
             "line": 6,
             "name": "El usuario va a la ventana Login",
-            "match": {},
+            "match": {
+              "location": "StepDefinitions.LoginTest_POM.el_usurio_va_a_la_ventana_Login()"
+            },
             "keyword": "And "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 3091869000,
+              "status": "passed"
             },
             "line": 7,
             "name": "Ingresamos el Martin y 12345",
-            "match": {},
+            "match": {
+              "arguments": [
+                {
+                  "val": "Martin",
+                  "offset": 14
+                },
+                {
+                  "val": "12345",
+                  "offset": 23
+                }
+              ],
+              "location": "StepDefinitions.LoginTest_POM.Ingresamos_el_usuario_y_contrasenia(java.lang.String,java.lang.String)"
+            },
             "keyword": "When "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 32886900,
+              "status": "passed"
             },
             "line": 8,
             "name": "click en el boton login",
-            "match": {},
+            "match": {
+              "location": "StepDefinitions.LoginTest_POM.click_en_el_boton_login()"
+            },
             "keyword": "And "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 5451101000,
+              "status": "passed"
             },
             "line": 9,
             "name": "EL usuario navega por la pagina TestProject Example page",
-            "match": {},
+            "match": {
+              "location": "StepDefinitions.LoginTest_POM.el_usuario_navega_por_la_pagina_TestProject_Example_page()"
+            },
             "keyword": "Then "
           }
         ],

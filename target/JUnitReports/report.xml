@@ -1,67 +1,67 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="8" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="8" time="0.249">
-    <testcase classname="feature to test google search functionality" name="Validate google search is working" time="0.07">
-        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given browser is open.......................................................undefined
-And user is on google search page...........................................undefined
-When use enters a text in search box........................................undefined
-And hits enter..............................................................undefined
-Then user is navigated to search results....................................undefined
-]]></failure>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="8" time="72.54">
+    <testcase classname="feature to test google search functionality" name="Validate google search is working" time="6.344">
+        <system-out><![CDATA[Given browser is open.......................................................passed
+And user is on google search page...........................................passed
+When use enters a text in search box........................................passed
+And hits enter..............................................................passed
+Then user is navigated to search results....................................passed
+]]></system-out>
     </testcase>
-    <testcase classname="Test Login Functionality" name="Accediendo al login con credenciales validas" time="0.004">
-        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given Abrimos el navegador Chrome...........................................undefined
-And El usurio ve a la ventana Login.........................................undefined
-When Se ingresa el usuario y contrasena.....................................undefined
-And hace click en el boton..................................................undefined
-Then EL usuario navega por la pagina principal..............................undefined
-]]></failure>
+    <testcase classname="Test Login Functionality" name="Accediendo al login con credenciales validas" time="6.901">
+        <system-out><![CDATA[Given Abrimos el navegador Chrome...........................................passed
+And El usurio ve a la ventana Login.........................................passed
+When Se ingresa el usuario y contrasena.....................................passed
+And hace click en el boton..................................................passed
+Then EL usuario navega por la pagina principal..............................passed
+]]></system-out>
     </testcase>
-    <testcase classname="Prueba de Funcionalidad de Login" name="Verificando el acceso al login con las credenciales" time="0.007">
-        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given Abrimos el navegador Firefox..........................................undefined
-And El usurio se dirige a la ventana Login..................................undefined
-When El usuario ingresa Eduardo y 12345.....................................undefined
-And hace click en el boton login............................................undefined
-Then EL usuario navega por la pagina........................................undefined
-]]></failure>
+    <testcase classname="Prueba de Funcionalidad de Login" name="Verificando el acceso al login con las credenciales" time="9.881">
+        <system-out><![CDATA[Given Abrimos el navegador Firefox..........................................passed
+And El usurio se dirige a la ventana Login..................................passed
+When El usuario ingresa Eduardo y 12345.....................................passed
+And hace click en el boton login............................................passed
+Then EL usuario navega por la pagina........................................passed
+]]></system-out>
     </testcase>
-    <testcase classname="Prueba de Funcionalidad de Login" name="Verificando el acceso al login con las credenciales 2" time="0.003">
-        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given Abrimos el navegador Firefox..........................................undefined
-And El usurio se dirige a la ventana Login..................................undefined
-When El usuario ingresa Diego y 12345.......................................undefined
-And hace click en el boton login............................................undefined
-Then EL usuario navega por la pagina........................................undefined
-]]></failure>
+    <testcase classname="Prueba de Funcionalidad de Login" name="Verificando el acceso al login con las credenciales 2" time="9.868">
+        <system-out><![CDATA[Given Abrimos el navegador Firefox..........................................passed
+And El usurio se dirige a la ventana Login..................................passed
+When El usuario ingresa Diego y 12345.......................................passed
+And hace click en el boton login............................................passed
+Then EL usuario navega por la pagina........................................passed
+]]></system-out>
     </testcase>
-    <testcase classname="Prueba de Funcionalidad de Login Successfull" name="Acceso al login con credenciales validas" time="0.006">
-        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given Abrimos el navegador web..............................................undefined
-And Nos dirigimos al Login del sistema......................................undefined
-When Accedemos con el Yadira y 12345........................................undefined
-And Hacemos click en el boton login.........................................undefined
-Then El usuario navega en la pagina de registro.............................undefined
-]]></failure>
+    <testcase classname="Prueba de Funcionalidad de Login Successfull" name="Acceso al login con credenciales validas" time="9.876">
+        <system-out><![CDATA[Given Abrimos el navegador web..............................................passed
+And Nos dirigimos al Login del sistema......................................passed
+When Accedemos con el Yadira y 12345........................................passed
+And Hacemos click en el boton login.........................................passed
+Then El usuario navega en la pagina de registro.............................passed
+]]></system-out>
     </testcase>
-    <testcase classname="Prueba de Funcionalidad de Login Successfull" name="Acceso al login con credenciales validas 2" time="0.001">
-        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given Abrimos el navegador web..............................................undefined
-And Nos dirigimos al Login del sistema......................................undefined
-When Accedemos con el Santiago y 12345......................................undefined
-And Hacemos click en el boton login.........................................undefined
-Then El usuario navega en la pagina de registro.............................undefined
-]]></failure>
+    <testcase classname="Prueba de Funcionalidad de Login Successfull" name="Acceso al login con credenciales validas 2" time="9.825">
+        <system-out><![CDATA[Given Abrimos el navegador web..............................................passed
+And Nos dirigimos al Login del sistema......................................passed
+When Accedemos con el Santiago y 12345......................................passed
+And Hacemos click en el boton login.........................................passed
+Then El usuario navega en la pagina de registro.............................passed
+]]></system-out>
     </testcase>
-    <testcase classname="Prueba de Funcionalidad de Login Successfull" name="Verificando el acceso al login con credenciales validas" time="0.005">
-        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given Se abre el navegador web..............................................undefined
-And El usuario va a la ventana Login........................................undefined
-When Ingresamos el Sergio y 12345...........................................undefined
-And click en el boton login.................................................undefined
-Then EL usuario navega por la pagina TestProject Example page...............undefined
-]]></failure>
+    <testcase classname="Prueba de Funcionalidad de Login Successfull" name="Verificando el acceso al login con credenciales validas" time="9.835">
+        <system-out><![CDATA[Given Se abre el navegador web..............................................passed
+And El usuario va a la ventana Login........................................passed
+When Ingresamos el Sergio y 12345...........................................passed
+And click en el boton login.................................................passed
+Then EL usuario navega por la pagina TestProject Example page...............passed
+]]></system-out>
     </testcase>
-    <testcase classname="Prueba de Funcionalidad de Login Successfull" name="Verificando el acceso al login con credenciales validas 2" time="0.002">
-        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given Se abre el navegador web..............................................undefined
-And El usuario va a la ventana Login........................................undefined
-When Ingresamos el Martin y 12345...........................................undefined
-And click en el boton login.................................................undefined
-Then EL usuario navega por la pagina TestProject Example page...............undefined
-]]></failure>
+    <testcase classname="Prueba de Funcionalidad de Login Successfull" name="Verificando el acceso al login con credenciales validas 2" time="9.834">
+        <system-out><![CDATA[Given Se abre el navegador web..............................................passed
+And El usuario va a la ventana Login........................................passed
+When Ingresamos el Martin y 12345...........................................passed
+And click en el boton login.................................................passed
+Then EL usuario navega por la pagina TestProject Example page...............passed
+]]></system-out>
     </testcase>
 </testsuite>

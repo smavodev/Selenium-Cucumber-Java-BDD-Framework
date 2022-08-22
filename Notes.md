@@ -24,7 +24,8 @@ Step 11 - Run and verify results
 
 ## Git Log console 
 ### git log --pretty=oneline --abbrev-commit --graph --color
-
+### git log --all --decorate --oneline --graph
+### git log --graph --abbrev-commit --decorate --date=relative --all
 
 ========================================================================================================
 

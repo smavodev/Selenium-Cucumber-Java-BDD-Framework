@@ -27,7 +27,7 @@ public class LoginTest_FC {
 		driver.manage().window().maximize();
 	}
 
-	@And("Nos dirigimos al Login del sistema")
+	@And("Nos dirigimos al Login del sistema") 
 	public void nos_dirigimos_al_Login_del_sistema()  {
 		driver.navigate().to("https://example.testproject.io/web/");
 	}

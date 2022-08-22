@@ -16,7 +16,7 @@ public class HomePage_PF {
 	public HomePage_PF(WebDriver driver) {
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
-		//PageFactory.initElements(driver, HomePage_PF.class);
+		// PageFactory.initElements(driver, HomePage_PF.class);
 	}
 	
 	public void LogoutIsDisplayed() {
