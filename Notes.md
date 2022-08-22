@@ -85,3 +85,14 @@ Step 5 - Update Test Scripts to refer methods from PageFactory class
 Step 6 - Run and validate
 
 ========================================================================================================
+
+## 6 Tags
+
+Step 1 - Create new or use an existing Feature File
+Step 2 - Mark the feature and Scenarios with tags: @TagName
+Step 3 - Create new or use an existing TestRunner class
+Step 4 - Add the tags in CucumberOptions section
+Step 5 - Run test runner class with different combinations of tags
+
+========================================================================================================
+

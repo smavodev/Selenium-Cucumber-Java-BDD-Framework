@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2022-08-22T14:45:41.439Z",
+        "start_timestamp": "2022-08-22T22:02:43.250Z",
         "line": 4,
         "name": "Validate google search is working",
         "description": "",
@@ -13,7 +13,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1748652400,
+              "duration": 1687922300,
               "status": "passed"
             },
             "line": 5,
@@ -25,7 +25,7 @@
           },
           {
             "result": {
-              "duration": 735893300,
+              "duration": 744648900,
               "status": "passed"
             },
             "line": 6,
@@ -37,7 +37,7 @@
           },
           {
             "result": {
-              "duration": 69326800,
+              "duration": 67048900,
               "status": "passed"
             },
             "line": 7,
@@ -49,7 +49,7 @@
           },
           {
             "result": {
-              "duration": 1168283800,
+              "duration": 1158832500,
               "status": "passed"
             },
             "line": 8,
@@ -61,7 +61,7 @@
           },
           {
             "result": {
-              "duration": 2551378900,
+              "duration": 2543736000,
               "status": "passed"
             },
             "line": 9,
@@ -90,7 +90,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2022-08-22T14:45:47.789Z",
+        "start_timestamp": "2022-08-22T22:02:49.528Z",
         "line": 4,
         "name": "Accediendo al login con credenciales validas",
         "description": "",
@@ -100,7 +100,7 @@
         "steps": [
           {
             "result": {
-              "duration": 676146100,
+              "duration": 661587800,
               "status": "passed"
             },
             "line": 5,
@@ -112,7 +112,7 @@
           },
           {
             "result": {
-              "duration": 617261000,
+              "duration": 1291842700,
               "status": "passed"
             },
             "line": 6,
@@ -124,7 +124,7 @@
           },
           {
             "result": {
-              "duration": 83541700,
+              "duration": 78429800,
               "status": "passed"
             },
             "line": 7,
@@ -136,7 +136,7 @@
           },
           {
             "result": {
-              "duration": 34859900,
+              "duration": 33910300,
               "status": "passed"
             },
             "line": 8,
@@ -148,7 +148,7 @@
           },
           {
             "result": {
-              "duration": 5486969800,
+              "duration": 5519954100,
               "status": "passed"
             },
             "line": 9,
@@ -177,7 +177,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2022-08-22T14:45:54.696Z",
+        "start_timestamp": "2022-08-22T22:02:57.122Z",
         "line": 13,
         "name": "Verificando el acceso al login con las credenciales",
         "description": "",
@@ -187,7 +187,7 @@
         "steps": [
           {
             "result": {
-              "duration": 648304200,
+              "duration": 675308300,
               "status": "passed"
             },
             "line": 5,
@@ -199,7 +199,7 @@
           },
           {
             "result": {
-              "duration": 589643700,
+              "duration": 622042900,
               "status": "passed"
             },
             "line": 6,
@@ -211,7 +211,7 @@
           },
           {
             "result": {
-              "duration": 3090359700,
+              "duration": 3087425200,
               "status": "passed"
             },
             "line": 7,
@@ -233,7 +233,7 @@
           },
           {
             "result": {
-              "duration": 33910400,
+              "duration": 38900800,
               "status": "passed"
             },
             "line": 8,
@@ -245,7 +245,7 @@
           },
           {
             "result": {
-              "duration": 5514070800,
+              "duration": 5488850300,
               "status": "passed"
             },
             "line": 9,
@@ -263,7 +263,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-08-22T14:46:04.581Z",
+        "start_timestamp": "2022-08-22T22:03:07.045Z",
         "line": 14,
         "name": "Verificando el acceso al login con las credenciales",
         "description": "",
@@ -273,7 +273,7 @@
         "steps": [
           {
             "result": {
-              "duration": 643110700,
+              "duration": 649083400,
               "status": "passed"
             },
             "line": 5,
@@ -285,7 +285,7 @@
           },
           {
             "result": {
-              "duration": 591667300,
+              "duration": 900251300,
               "status": "passed"
             },
             "line": 6,
@@ -297,7 +297,7 @@
           },
           {
             "result": {
-              "duration": 3096551900,
+              "duration": 3076544800,
               "status": "passed"
             },
             "line": 7,
@@ -319,7 +319,7 @@
           },
           {
             "result": {
-              "duration": 33911800,
+              "duration": 36880400,
               "status": "passed"
             },
             "line": 8,
@@ -331,7 +331,7 @@
           },
           {
             "result": {
-              "duration": 5500907200,
+              "duration": 5497307100,
               "status": "passed"
             },
             "line": 9,
@@ -360,7 +360,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2022-08-22T14:46:14.453Z",
+        "start_timestamp": "2022-08-22T22:03:17.209Z",
         "line": 13,
         "name": "Acceso al login con credenciales validas",
         "description": "",
@@ -370,7 +370,7 @@
         "steps": [
           {
             "result": {
-              "duration": 662197400,
+              "duration": 652488200,
               "status": "passed"
             },
             "line": 5,
@@ -382,7 +382,7 @@
           },
           {
             "result": {
-              "duration": 581113200,
+              "duration": 626453700,
               "status": "passed"
             },
             "line": 6,
@@ -394,7 +394,7 @@
           },
           {
             "result": {
-              "duration": 3106860200,
+              "duration": 3099313300,
               "status": "passed"
             },
             "line": 7,
@@ -416,7 +416,7 @@
           },
           {
             "result": {
-              "duration": 33911800,
+              "duration": 33883400,
               "status": "passed"
             },
             "line": 8,
@@ -428,7 +428,7 @@
           },
           {
             "result": {
-              "duration": 5488375900,
+              "duration": 5498847000,
               "status": "passed"
             },
             "line": 9,
@@ -446,7 +446,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-08-22T14:46:24.331Z",
+        "start_timestamp": "2022-08-22T22:03:27.125Z",
         "line": 14,
         "name": "Acceso al login con credenciales validas",
         "description": "",
@@ -456,7 +456,7 @@
         "steps": [
           {
             "result": {
-              "duration": 621384100,
+              "duration": 662756700,
               "status": "passed"
             },
             "line": 5,
@@ -468,7 +468,7 @@
           },
           {
             "result": {
-              "duration": 595824000,
+              "duration": 812138300,
               "status": "passed"
             },
             "line": 6,
@@ -480,7 +480,7 @@
           },
           {
             "result": {
-              "duration": 3086753000,
+              "duration": 3087553800,
               "status": "passed"
             },
             "line": 7,
@@ -502,7 +502,7 @@
           },
           {
             "result": {
-              "duration": 33910300,
+              "duration": 33882000,
               "status": "passed"
             },
             "line": 8,
@@ -514,7 +514,7 @@
           },
           {
             "result": {
-              "duration": 5483958200,
+              "duration": 5463443800,
               "status": "passed"
             },
             "line": 9,
@@ -543,7 +543,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2022-08-22T14:46:34.158Z",
+        "start_timestamp": "2022-08-22T22:03:37.188Z",
         "line": 12,
         "name": "Verificando el acceso al login con credenciales validas",
         "description": "",
@@ -553,7 +553,7 @@
         "steps": [
           {
             "result": {
-              "duration": 633472000,
+              "duration": 635747000,
               "status": "passed"
             },
             "line": 5,
@@ -565,7 +565,7 @@
           },
           {
             "result": {
-              "duration": 587594200,
+              "duration": 1152553000,
               "status": "passed"
             },
             "line": 6,
@@ -577,7 +577,7 @@
           },
           {
             "result": {
-              "duration": 3097702400,
+              "duration": 3093825600,
               "status": "passed"
             },
             "line": 7,
@@ -599,7 +599,7 @@
           },
           {
             "result": {
-              "duration": 36874500,
+              "duration": 34908500,
               "status": "passed"
             },
             "line": 8,
@@ -611,7 +611,7 @@
           },
           {
             "result": {
-              "duration": 5475291800,
+              "duration": 5495841700,
               "status": "passed"
             },
             "line": 9,
@@ -629,7 +629,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-08-22T14:46:43.995Z",
+        "start_timestamp": "2022-08-22T22:03:47.606Z",
         "line": 13,
         "name": "Verificando el acceso al login con credenciales validas",
         "description": "",
@@ -639,7 +639,7 @@
         "steps": [
           {
             "result": {
-              "duration": 649274700,
+              "duration": 618880000,
               "status": "passed"
             },
             "line": 5,
@@ -651,7 +651,7 @@
           },
           {
             "result": {
-              "duration": 608780500,
+              "duration": 765399100,
               "status": "passed"
             },
             "line": 6,
@@ -663,7 +663,7 @@
           },
           {
             "result": {
-              "duration": 3091869000,
+              "duration": 3074707000,
               "status": "passed"
             },
             "line": 7,
@@ -685,7 +685,7 @@
           },
           {
             "result": {
-              "duration": 32886900,
+              "duration": 32889800,
               "status": "passed"
             },
             "line": 8,
@@ -697,7 +697,7 @@
           },
           {
             "result": {
-              "duration": 5451101000,
+              "duration": 5482062400,
               "status": "passed"
             },
             "line": 9,

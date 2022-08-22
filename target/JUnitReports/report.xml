@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="8" time="72.54">
-    <testcase classname="feature to test google search functionality" name="Validate google search is working" time="6.344">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="8" time="74.471">
+    <testcase classname="feature to test google search functionality" name="Validate google search is working" time="6.267">
         <system-out><![CDATA[Given browser is open.......................................................passed
 And user is on google search page...........................................passed
 When use enters a text in search box........................................passed
@@ -8,7 +8,7 @@ And hits enter..............................................................pass
 Then user is navigated to search results....................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Test Login Functionality" name="Accediendo al login con credenciales validas" time="6.901">
+    <testcase classname="Test Login Functionality" name="Accediendo al login con credenciales validas" time="7.587">
         <system-out><![CDATA[Given Abrimos el navegador Chrome...........................................passed
 And El usurio ve a la ventana Login.........................................passed
 When Se ingresa el usuario y contrasena.....................................passed
@@ -16,7 +16,7 @@ And hace click en el boton..................................................pass
 Then EL usuario navega por la pagina principal..............................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Prueba de Funcionalidad de Login" name="Verificando el acceso al login con las credenciales" time="9.881">
+    <testcase classname="Prueba de Funcionalidad de Login" name="Verificando el acceso al login con las credenciales" time="9.918">
         <system-out><![CDATA[Given Abrimos el navegador Firefox..........................................passed
 And El usurio se dirige a la ventana Login..................................passed
 When El usuario ingresa Eduardo y 12345.....................................passed
@@ -24,7 +24,7 @@ And hace click en el boton login............................................pass
 Then EL usuario navega por la pagina........................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Prueba de Funcionalidad de Login" name="Verificando el acceso al login con las credenciales 2" time="9.868">
+    <testcase classname="Prueba de Funcionalidad de Login" name="Verificando el acceso al login con las credenciales 2" time="10.162">
         <system-out><![CDATA[Given Abrimos el navegador Firefox..........................................passed
 And El usurio se dirige a la ventana Login..................................passed
 When El usuario ingresa Diego y 12345.......................................passed
@@ -32,7 +32,7 @@ And hace click en el boton login............................................pass
 Then EL usuario navega por la pagina........................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Prueba de Funcionalidad de Login Successfull" name="Acceso al login con credenciales validas" time="9.876">
+    <testcase classname="Prueba de Funcionalidad de Login Successfull" name="Acceso al login con credenciales validas" time="9.913">
         <system-out><![CDATA[Given Abrimos el navegador web..............................................passed
 And Nos dirigimos al Login del sistema......................................passed
 When Accedemos con el Yadira y 12345........................................passed
@@ -40,7 +40,7 @@ And Hacemos click en el boton login.........................................pass
 Then El usuario navega en la pagina de registro.............................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Prueba de Funcionalidad de Login Successfull" name="Acceso al login con credenciales validas 2" time="9.825">
+    <testcase classname="Prueba de Funcionalidad de Login Successfull" name="Acceso al login con credenciales validas 2" time="10.061">
         <system-out><![CDATA[Given Abrimos el navegador web..............................................passed
 And Nos dirigimos al Login del sistema......................................passed
 When Accedemos con el Santiago y 12345......................................passed
@@ -48,7 +48,7 @@ And Hacemos click en el boton login.........................................pass
 Then El usuario navega en la pagina de registro.............................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Prueba de Funcionalidad de Login Successfull" name="Verificando el acceso al login con credenciales validas" time="9.835">
+    <testcase classname="Prueba de Funcionalidad de Login Successfull" name="Verificando el acceso al login con credenciales validas" time="10.415">
         <system-out><![CDATA[Given Se abre el navegador web..............................................passed
 And El usuario va a la ventana Login........................................passed
 When Ingresamos el Sergio y 12345...........................................passed
@@ -56,7 +56,7 @@ And click en el boton login.................................................pass
 Then EL usuario navega por la pagina TestProject Example page...............passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Prueba de Funcionalidad de Login Successfull" name="Verificando el acceso al login con credenciales validas 2" time="9.834">
+    <testcase classname="Prueba de Funcionalidad de Login Successfull" name="Verificando el acceso al login con credenciales validas 2" time="9.975">
         <system-out><![CDATA[Given Se abre el navegador web..............................................passed
 And El usuario va a la ventana Login........................................passed
 When Ingresamos el Martin y 12345...........................................passed
