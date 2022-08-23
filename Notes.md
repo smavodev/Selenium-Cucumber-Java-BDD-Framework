@@ -1,24 +1,11 @@
 
-# 1 Selenium Cucumber Java BDD Framework - Setup
+# Selenium Cucumber Java BDD Framework - Setup
 
 ## Dependencies: Cucumber Java | Cucumber JUnit | JUnit | Selenium Java 
 
 https://mvnrepository.com/artifact/io.cucumber/cucumber-java/5.7.0
 https://mvnrepository.com/artifact/junit/junit/4.13
 https://mvnrepository.com/artifact/io.cucumber/cucumber-junit/5.7.0
-
-Step 1 - Crate a new maven project
-Step 2 - Add maven dependencies Cucumber Java | Cucumber JUnit | JUnit | Selenium Java
-Step 3 - Create folder Features under src/test/resources
-Step 4 - Under features folder create a new feature file login.feature
-Step 5 - Download cucumber plugin from Eclipse Marketplace
-Step 6 - Create feature file and add contents 
-Step 7 - Try to run the feature file 
-Step 8 - Add Step Definitions / Glue Code under src/test/java package 
-Step 9 - Create a Runner class
-Step 10 - Create Add Cucumber Options for generating reports HTML | JSON | XML
-Step 11 - Run and verify results 
-
 
 ## Semantic Commit Messages: https://gist.github.com/joshbuchea/6f47e86d2510bce28f8e7f42ae84c716
 
@@ -29,12 +16,28 @@ Step 11 - Run and verify results
 
 ========================================================================================================
 
-# 1 Fisrt Selenium Test
+# 1 Setup
 
-Step 1 - Add Selenium Java Maven dependency 
+Step 1 - Create a new maven project
+Step 2 - Add maven dependencies Cucumber Java | Cucumber JUnit | JUnit | Selenium Java
+Step 3 - Create a folder Features under src/test/resources
+Step 4 - Under features folder create a new feature file login.feature
+Step 5 - Download cucumber plugin from Eclipse Marketplace
+Step 6 - Create feature file and add contents
+Step 7 - Try to run the feature file
+Step 8 - Add Step Definitions / Glue Code under src/test/java package
+Step 9 - Create a Runner class
+Step 10 - Create Add Cucumber Options for generating reports - HTML | JSON | JUNIT/XML   
+Step 11 - Run and verify results
+
+========================================================================================================
+  
+# 2 Fisrt Selenium Test
+
+Step 1 - Add Selenium Java maven dependency
 Step 2 - Create a feature file and add Scenario and Steps
-Step 3 - Create Step Definition/ Glue code for the steps
-Step 4 - Download browser driver files
+Step 3 - Create Step Definition/Glue Code for the steps
+Step 4 - Download browser driver files 
 Step 5 - Add Selenium WebDriver code
 Step 6 - Run Feature file and check the execution
  
@@ -45,23 +48,23 @@ https://chromedriver.chromium.org/downloads
 
 ## 3 Sample Login Test
 
-Step 1 - Check the Scenario / Navigation
-Step 2 - Create feature file and Scenario and Steps
-Step 3 - Create Steps Definition / Glue Code for the Steps
-Step 4 - Add Selenium WebDriver code 
+Step 1 - Check the scenario/navigation
+Step 2 - Create a feature file and add Scenario and Steps
+Step 3 - Create Step Definition/Glue Code for the steps
+Step 4 - Add Selenium WebDriver code
 Step 5 - Run Feature file and check the execution
 
 ========================================================================================================
 
 ## 4 Parameterization & Data Driven Testing
 
-Step 1 - In the feature file select the values that needs to be Parameterization
+Step 1 - In the feature file select the values that need to be parameterized
 Step 2 - Put the values within conical brackets or double quotes (Parameterization)
 Step 3 - Change Scenario to Scenario Outline
-Step 4 - Add Examples secion
-Step 5 - Add data for the parameters in th Examples section
-Step 6 - Update Step definition to get values fron feature file Example section
-Step 7 - Run and verify 
+Step 4 - Add Examples section
+Step 5 - Add data for the parameters in the Examples section
+Step 6 - Update step definition to get values from feature file Examples section
+Step 7 - Run and verify
 
 ========================================================================================================
 
@@ -69,8 +72,8 @@ Step 7 - Run and verify
 
 Step 1 - Create a class for each page
 Step 2 - Create locators of all objects to be used in that page
-Step 3 - Create methods or actions to be performed ob the objects
-Step 4 - Refer in the test script 
+Step 3 - Create methods or actions to be performed on the objects
+Step 4 - Refer in the test scripts
 Step 5 - Run and validate
 
 ========================================================================================================
@@ -80,19 +83,29 @@ Step 5 - Run and validate
 Step 1 - Create a class for each page
 Step 2 - Create locators of all objects to be used in that page using @FindBy
 Step 3 - Create methods or actions to be performed on the objects
-Step 4 - Create constructor to get driver instance and inicialize Elements using method initElements
+Step 4 - Create constructor to get driver instance and initialize Elements using method initElements
 Step 5 - Update Test Scripts to refer methods from PageFactory class
 Step 6 - Run and validate
 
 ========================================================================================================
 
-## 6 Tags
+## 7 Tags
 
-Step 1 - Create new or use an existing Feature File
-Step 2 - Mark the feature and Scenarios with tags: @TagName
+Step 1 - Create a new or use an existing Feature File
+Step 2 - Mark the feature and scenarios with Tags : @TagName
 Step 3 - Create new or use an existing TestRunner class
 Step 4 - Add the tags in CucumberOptions section
-Step 5 - Run test runner class with different combinations of tags
+Step 5 - Run test runner class with different combination of tags
+
+========================================================================================================
+
+## 8 Hooks - How to use HOOKS
+
+Step 1 - Create a new or use an existing Feature File
+Step 2 - Create the steps for the scenario in the feature file
+Step 3 - Create setup and teardown methods and mark with annotation @Before | @After | @BeforeSteps | @AfterSteps |
+Step 4 - Create new or use an existing TestRunner class
+Step 5 - Run the TestRunner class and check execution
 
 ========================================================================================================
 
