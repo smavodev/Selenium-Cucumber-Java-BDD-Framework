@@ -14,7 +14,7 @@ public class LoginTestParameterizerSteps {
 
 	WebDriver driver = null;
 	
-	@Given("Abrimos el navegador Firefox")
+	@Given("Abrimos el navegador Firefox") 
 	public void abrimos_el_navegador_Firefox() {
 		//System.setProperty("webdriver.gecko.driver", "./src/test/resources/drivers/firefox/geckodriver_0.31.0.exe");
 		System.setProperty("webdriver.chrome.driver", "./src/test/resources/drivers/chrome/chromedriver_104.0.5112.81.exe");
@@ -23,7 +23,7 @@ public class LoginTestParameterizerSteps {
 		driver.manage().window().maximize();
 	}
 
-	@And("El usurio se dirige a la ventana Login")
+	@And("El usurio se dirige a la ventana Login") 
 	public void el_usurio_se_dirige_a_la_ventana_Login() {
 		driver.navigate().to("https://example.testproject.io/web/");
 	}

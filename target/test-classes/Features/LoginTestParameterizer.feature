@@ -10,5 +10,5 @@ Feature: Prueba de Funcionalidad de Login
 
     Examples: 
       | username | password |
-      | Eduardo   |    12345 |
-      | Diego   |    12345 |
+      | Eduardo  |    12345 |
+      | Diego    |    12345 |

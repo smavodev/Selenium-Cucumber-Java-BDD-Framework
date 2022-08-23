@@ -1,6 +1,6 @@
 package StepDefinitions;
 
-import org.openqa.selenium.By;
+// import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 // import org.openqa.selenium.firefox.FirefoxDriver;
@@ -10,6 +10,8 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import pages.loginPage;
+
+
 
 public class LoginTest_POM {
 
@@ -50,7 +52,7 @@ public class LoginTest_POM {
 	}
 
 	@Then("EL usuario navega por la pagina TestProject Example page")
-	public void el_usuario_navega_por_la_pagina_testProject_example_page() throws InterruptedException {
+	public void el_usuario_navega_por_la_pagina_TestProject_Example_page() throws InterruptedException {
 		login.checkLogoutIsDisplayed();
 		// driver.findElement(By.id("logout")).isDisplayed();
 		Thread.sleep(3000);

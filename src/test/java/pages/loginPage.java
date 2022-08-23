@@ -13,13 +13,10 @@ public class loginPage {
 	private By btn_logout = By.id("logout");
 	
 	public loginPage(WebDriver driver) {
-		
 		this.driver = driver;
-		
 		// if (!driver.getTitle().equals("TestProject Demo")) {
 		// 	throw new IllegalStateException("This is not Login Page. The Current page is"+driver.getCurrentUrl());
 		// }
-		
 	}
 
 	public void enterUsername(String usuario) {

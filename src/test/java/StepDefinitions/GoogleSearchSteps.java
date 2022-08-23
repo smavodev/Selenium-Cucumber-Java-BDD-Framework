@@ -17,7 +17,7 @@ public class GoogleSearchSteps {
 
 	WebDriver driver = null;
 	
-	@Given("browser is open")
+	@Given("browser is open") 
 	public void browser_is_open() {
 		System.setProperty("webdriver.chrome.driver", "./src/test/resources/drivers/chrome/chromedriver_104.0.5112.81.exe");
 		driver = new ChromeDriver();
