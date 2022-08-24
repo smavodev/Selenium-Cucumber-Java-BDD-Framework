@@ -35,20 +35,17 @@ public class HooksTest {
 
 	@When("Ingresa sus credenciales validas")
 	public void ingresa_sus_credenciales_validas() {
-
-
+		System.out.println("Ingresa sus credenciales validas");
 	}
 
 	@And("hace click al boton de login")
 	public void hace_click_al_boton_de_login() {
-
-
+		System.out.println("hace click al boton de login");
 	}
 
 	@Then("ingresa a la parte privada de la pagina")
 	public void ingresa_a_la_parte_privada_de_la_pagina() {
-
-
+		System.out.println("ingresa a la parte privada de la pagina");
 	}
 
 }
