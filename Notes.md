@@ -109,3 +109,14 @@ Step 5 - Run the TestRunner class and check execution
 
 ========================================================================================================
 
+## 8 Background
+
+Step 1 - Create a new or use an existing Feature File
+Step 2 - Create the steps for the scenario in the feature file
+Step 3 - Create new or use an existing TestRunner class
+Step 4 - Run the test runner file
+Step 5 - Create a background section and add common steps
+Step 6 - Run the test runner file and check execution of the background
+
+========================================================================================================
+
