@@ -182,3 +182,30 @@ mvn test -Dcucumber.options="----"  -Dcucumber.options="----"
 mvn test 
 -Dcucumber.options="src/test/resources/login.feature"  -Dcucumber.options="--tags @Smoke" 
 ```
+
+========================================================================================================
+
+## 11 - How To Create HTML Reports
+
+- Step 1 : Add the maven cucumber reporting dependency in pom.xml
+- Step 2 : Add the build plugins in pom.xml
+- Step 3 : Clean project
+- Step 4 : From command line run - mvn test
+- Step 5 : From command line run - mvn verify
+- Step 6 : Check report generated
+
+**References:**
+**Maven Repository** - https://mvnrepository.com/artifact/net.masterthought/cucumber-reporting
+**GitHub** - https://github.com/damianszczepanik/maven-cucumber-reporting
+**StackOverflow** - https://stackoverflow.com/questions/51257224/maven-cucumber-reporting-plugin-is-not-generating-the-report-nothing-happens
+
+
+- running mvn clean test will generate the Cucumber report file
+
+target/cucumber.json
+- running mvn verify -DskipTests will generate the cucumber-report-html based on the cucumber.json
+
+target/cucumber-report-html/cucumber-html-reports/src-test-resource-features-demo-feature.html
+target/cucumber-report-html/cucumber-html-reports/...
+
+- running mvn clean verify will do all together
