@@ -1,143 +1,121 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/resources/FeatureWithTags/SampleTest.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/resources/Features/GoogleSerach.feature");
 formatter.feature({
-  "name": "Feature to demo Tags",
+  "name": "feature to test google search functionality",
   "description": "",
   "keyword": "Feature"
 });
 formatter.scenario({
-  "name": "Prueba3",
+  "name": "Validate google search is working",
   "description": "",
   "keyword": "Scenario",
   "tags": [
     {
-      "name": "@regresion"
-    },
-    {
-      "name": "@smoke"
+      "name": "@smokeTest"
     }
   ]
 });
 formatter.step({
-  "name": "Vamos al link",
+  "name": "browser is open",
   "keyword": "Given "
 });
 formatter.match({
-  "location": "StepDefinitions.SampleTestTags.vamos_al_link()"
+  "location": "StepDefinitions.GoogleSearchSteps.browser_is_open()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "ingresamos datos",
+  "name": "user is on google search page",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "StepDefinitions.GoogleSearchSteps.user_is_on_google_search_page()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "use enters a text in search box",
   "keyword": "When "
 });
 formatter.match({
-  "location": "StepDefinitions.SampleTestTags.ingresamos_datos()"
+  "location": "StepDefinitions.GoogleSearchSteps.use_enters_a_text_in_search_box()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "nos muestra resultados",
-  "keyword": "Then "
+  "name": "hits enter",
+  "keyword": "And "
 });
 formatter.match({
-  "location": "StepDefinitions.SampleTestTags.nos_muestra_resultados()"
+  "location": "StepDefinitions.GoogleSearchSteps.hits_enter()"
 });
 formatter.result({
   "status": "passed"
+});
+formatter.step({
+  "name": "user is navigated to search results",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "StepDefinitions.GoogleSearchSteps.user_is_navigated_to_search_results()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.uri("file:src/test/resources/Features/LoginTest.feature");
+formatter.feature({
+  "name": "Test Login Functionality",
+  "description": "",
+  "keyword": "Feature"
 });
 formatter.scenario({
-  "name": "Prueba4",
+  "name": "Accediendo al login con credenciales validas",
   "description": "",
   "keyword": "Scenario",
   "tags": [
     {
-      "name": "@important"
+      "name": "@smokeTest"
     }
   ]
 });
 formatter.step({
-  "name": "Vamos al link",
+  "name": "Abrimos el navegador Chrome",
   "keyword": "Given "
 });
 formatter.match({
-  "location": "StepDefinitions.SampleTestTags.vamos_al_link()"
+  "location": "StepDefinitions.LoginTestSteps.abrimos_el_navegador_Chrome()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "ingresamos datos",
+  "name": "El usurio ve a la ventana Login",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "StepDefinitions.LoginTestSteps.el_usurio_ve_a_la_ventana_Login()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Se ingresa el usuario y contrasena",
   "keyword": "When "
 });
 formatter.match({
-  "location": "StepDefinitions.SampleTestTags.ingresamos_datos()"
+  "location": "StepDefinitions.LoginTestSteps.se_ingresa_el_usuario_y_contrasena()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "nos muestra resultados",
-  "keyword": "Then "
+  "name": "hace click en el boton",
+  "keyword": "And "
 });
 formatter.match({
-  "location": "StepDefinitions.SampleTestTags.nos_muestra_resultados()"
-});
-formatter.result({
-  "status": "passed"
-});
-});cation": "StepsBackground.Background.proceso_numero5()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.background({
-  "name": "",
-  "description": "",
-  "keyword": "Background"
-});
-formatter.step({
-  "name": "Proceso numero1",
-  "keyword": "Given "
-});
-formatter.match({
-  "location": "StepsBackground.Background.proceso_numero1()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Proceso numero3",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "StepsBackground.Background.proceso_numero3()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.scenario({
-  "name": "Ejemplo3",
-  "description": "",
-  "keyword": "Scenario",
-  "tags": [
-    {
-      "name": "@testing"
-    }
-  ]
-});
-formatter.step({
-  "name": "Proceso numero8",
-  "keyword": "When "
-});
-formatter.match({
-  "location": "StepsBackground.Background.proceso_numero8()"
-});
-formatter.result({
-  "status": "passed"
-});
-});ce_click_en_el_boton()"
+  "location": "StepDefinitions.LoginTestSteps.hace_click_en_el_boton()"
 });
 formatter.result({
   "status": "passed"
